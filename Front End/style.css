@@ -1,0 +1,21 @@
+.xyz{
+    border-radius: 20px 0px 20px;
+}
+
+body{
+    background: linear-gradient(-45deg, cyan, indigo, violet, royalblue);
+    background-size: 400% 400%;
+    height: 100vh;
+    animation: msit 5s ease infinite;
+}
+@keyframes msit{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 50% 0%;
+    }
+}
